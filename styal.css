@@ -6,11 +6,11 @@
 body{
     background: var(--body-color);
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 .cart {
-    display: grid;
+    /* display: grid;
     place-items: center;
     height: 100vh;        
     background: black;
@@ -19,7 +19,37 @@ body{
     margin: 20px;             
     box-sizing: border-box;
     font-size: 40px;
-    text-align: center;
+    text-align: center; */
+
+    padding: 6rem 0 0 0 ;
+
 
 }
 
+
+.add_task{
+    background-color: burlywood;
+    padding: 50px;
+}
+
+
+.add_task .input{
+     padding: 0.7rem 40px;
+     outline: none;
+     border: 1px solid black;
+}
+
+.add_task .add{
+    padding: 0.7rem 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.tasks{
+     margin-top: 0.4rem;
+     background-color: rgb(197, 149, 78);
+     padding: 20px;
+
+
+}
